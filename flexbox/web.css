@@ -1,0 +1,16 @@
+.one{
+    display: flex;
+    flex-direction: ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.two{
+    border: 2px solid blue;
+    font-size: 30px;
+    padding: 5px;
+    color: blueviolet;
+    margin: 10px;
+}

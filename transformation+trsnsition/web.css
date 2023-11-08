@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.one{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(99, 216, 45);
+    text-decoration-color: rgb(192, 183, 169);
+    border: 3px slategrey solid;
+    padding: 20px;
+    font-size: 20px;
+    transform: translatey(200px) rotate(60deg) scalex(0.5) scaleY(0.7);
+    transform: skewy(20deg);
+    margin: 50px auto;
+}
+
+.two{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 80px;
+    background-color: rgb(45, 205, 216);
+    transition:  width 3s , height 3s, transform 3s;
+    transition-delay:1s;
+    transition-timing-function:linear;
+    transition-duration: 2s;
+    transition-property: ;
+}
+
+.two:hover{
+    width: 300px;
+    height:300px ;
+   transform:rotate(180deg)
+}

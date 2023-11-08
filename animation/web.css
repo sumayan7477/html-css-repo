@@ -1,0 +1,99 @@
+.one{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    animation-name: sumu;
+    animation-duration: 3s;
+    
+}
+
+
+@keyframes sumu{
+    from{background-color: aqua;}
+    to { background-color: blue;}
+}
+
+.two{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: aqua;
+    animation-name: me;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    
+}
+
+
+@keyframes me{
+   0%{
+    background-color: aqua;
+    left: 0;
+    top: 0;
+   }
+   25%{
+    background-color: aquamarine;
+    left: 200px;
+    top: 0;
+
+   }
+   50%{
+    background-color: azure;
+    left: 200px;
+    top: 200px;
+    }
+   75%{
+    background-color: rgb(49, 189, 199);
+    left: 0;
+    top: 200px;
+    }
+   100%{
+    background-color: blue;
+    left: 0;
+    top: 0;
+   }
+}
+
+.three{
+    margin: 20px;
+    width: 200px;
+    height: 200px;  
+    position: relative;
+    background-color: aqua;
+    animation: you  4s ease 1s 2 alternate backwards;
+}
+
+@keyframes you{
+    0%{
+     background-color: aqua;
+     left: 0;
+     top: 0;
+    }
+    25%{
+     background-color: aquamarine;
+     left: 200px;
+     top: 0;
+ 
+    }
+    50%{
+     background-color: azure;
+     left: 200px;
+     top: 200px;
+     }
+    75%{
+     background-color: rgb(49, 189, 199);
+     left: 0;
+     top: 200px;
+     }
+    100%{
+     background-color: blue;
+     left: 0;
+     top: 0;
+    }
+ }
+ 

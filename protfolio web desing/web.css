@@ -1,0 +1,232 @@
+/*navbae start*/
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(25, 83, 83);
+    margin: 0;
+
+}
+
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+a{
+    color: rgb(3, 61, 112);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+
+.dotted-hr{
+    border: dotted 6PX ;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 100px;
+}
+
+
+.navbar{
+    background-color: #0ccaba;
+    padding: 1% 7%;
+    text-align: center;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+
+
+/*for phone*/
+
+[class*="col-"]{
+
+    width:100%;
+}
+
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.navbar h1{
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding-top: 10px;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.nav-menu a{
+    background-color: #058d7b ;
+    border-radius: 10px;
+    margin: 7px 0px;
+    padding: 10px;
+
+}
+
+.nav-menu a:hover{
+    background-color: gray;
+}
+
+
+
+/*navbae end*/
+
+
+
+/*profile start*/
+
+.profile{
+    padding: 130px 10px;
+    position: relative;
+    text-align: center;
+}
+
+.profile .top-weather{
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    transition: transform 2s;
+
+}
+.profile .bottom-weather{
+    position: absolute;
+    left: 0px;
+    top: 400px;
+    transition: transform 2s;
+    
+}
+
+.profile .top-weather:hover,
+.profile .bottom-weather:hover{
+    transform: rotate(360deg);
+}
+
+
+.profile-desc{
+    font-family: cursive;
+    font-size: 10rem;
+}
+
+
+.profile-desc p{
+    color: azure;
+    text-align: center;
+    width: 90%;
+    margin: 0px auto 20px auto;
+}
+
+
+.profile{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* profile end*/
+
+
+
+/* about me start here */
+
+h2{
+    font-size: 1.5rem;
+    text-align: center; 
+    color: white;
+}
+
+
+.about-me{
+    background-color: rgb(11, 49, 37);
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+
+}
+
+.about-me::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.aboutme-img img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.about-me p{
+    text-align: center;
+}
+
+.about-me a{
+    font-size: 1.2rem;
+}
+
+.cv-btn{
+    background-color: rgb(10, 121, 84);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    cursor:pointer;
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about me end here */

@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(10, 179, 122);
+    background-image: url(my.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    overflow: hidden;
+}
+
+ul li{
+    float: left;
+    list-style-type: none;
+}
+
+ul li a{
+    color: chartreuse;
+    text-decoration:none;
+    text-transform: capitalize;
+     padding: 10px 15px;
+     display: inline-block; 
+}
+ul li a:hover{
+    background: rgb(11, 168, 196);
+}
+
+.two{
+    background-color: rgb(216, 15, 156);
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,3);
+    display: none;
+    position: absolute;
+}
+
+.two a{
+    display: block;
+    color: burlywood;
+}
+.two a:hover{
+    background-color: aqua;
+}
+
+.one:hover .two{
+    display: block;
+}
